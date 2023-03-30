@@ -11,11 +11,11 @@
       <img src="../assets/qr.svg" alt="qr" />
       <div class="grid grid-cols-2 gap-2 text-white font-bold">
         <button class="bg-indigo-500 py-3 px-6 rounded">Opret handel</button>
-        <button class="bg-zinc-800/50 py-3 px-6 rounded">Opdater</button>
+        <button class="bg-zinc-800 py-3 px-6 rounded">Opdater</button>
       </div>
     </div>
     <div class="flex flex-col space-y-2">
-      <label class="text-white/50 uppercase text-sm" for="trades"
+      <label class="text-white/25 uppercase text-sm" for="trades"
         >Handler</label
       >
       <div class="trade-counter">
@@ -42,6 +42,6 @@
 }
 
 .trade-counter {
-  @apply bg-zinc-800/50 p-4 rounded grid grid-cols-5 place-items-center;
+  @apply bg-zinc-800 p-4 rounded grid grid-cols-5 place-items-center;
 }
 </style>

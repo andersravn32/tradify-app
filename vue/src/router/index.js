@@ -7,6 +7,14 @@ const router = createRouter({
       path: "/",
       component: () => import("../pages/index.vue"),
     },
+    {
+      path: "/trades",
+      component: () => import("../pages/trades.vue")
+    },
+    {
+      path: "/profile",
+      component: () => import("../pages/profile.vue")
+    }
   ],
 });
 

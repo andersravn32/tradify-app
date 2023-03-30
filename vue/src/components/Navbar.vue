@@ -19,10 +19,10 @@ import {
     <router-link to="/">
       <PlusIcon class="h-6 w-6" />
     </router-link>
-    <router-link to="/">
+    <router-link to="/trades">
       <ArrowsRightLeftIcon class="h-6 w-6" />
     </router-link>
-    <router-link to="/">
+    <router-link to="/profile">
       <UserIcon class="h-6 w-6" />
     </router-link>
   </nav>
@@ -30,7 +30,7 @@ import {
 
 <style>
 #navbar {
-  @apply flex items-center justify-between px-8 border-t-2 border-zinc-800/50 fixed bottom-0 left-0 right-0;
+  @apply flex items-center justify-between px-8 border-t-2 bg-zinc-900 border-zinc-800 fixed bottom-0 left-0 right-0 z-10;
 }
 
 #navbar a {
